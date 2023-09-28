@@ -31,15 +31,14 @@ export default withMT({
         ...theme('colors')
       }),
       textShadow: {
-        sm: '0 1px 2px var(--tw-shadow-color)',
-        DEFAULT: '0 2px 4px var(--tw-shadow-color)',
-        md: '0 4px 6px -1px var(--tw-shadow-color)',
-        lg: '0 10px 15px -3px var(--tw-shadow-color)',
-        xl: '0 20px 25px -5px var(--tw-shadow-color)',
-        '2xl': '0 25px 50px -12px var(--tw-shadow-color)',
-        inner: 'inset 0 2px 4px 0 var(--tw-shadow-color)',
-        none: 'none',
-      },
+				sm: '0 1px 2px var(--tw-shadow-color)',
+				DEFAULT: '0 1px 4px var(--tw-shadow-color)',
+				md: '0 1px 6px var(--tw-shadow-color)',
+				lg: '0 1px 12px var(--tw-shadow-color)',
+				xl: '0 1px 25px var(--tw-shadow-color)',
+				'2xl': '0 1px 50px var(--tw-shadow-color)',
+				none: 'none',
+			},
       boxShadow: {
         sm: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
         DEFAULT: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
