@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Luckiest+Guy&family=Acme&family=Lilita+One&family=Rubik+80s+Fade&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+.font-luckiest {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.font-kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.font-acme {
+    font-family: 'Acme', sans-serif;
+}
+
+.font-lilita {
+    font-family: 'Lilita One', cursive;
+}
+
+.font-rubik {
+    font-family: 'Rubik 80s Fade', cursive;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.animate__one {
+    animation-delay: 0.5s;
+}
+
+.animate__two {
+    animation-delay: 1s;
+}
+
+.animate__three {
+    animation-delay: 1.5s;
+}
+
+.animate__four {
+    animation-delay: 2s;
+}
+
+.animate__five {
+    animation-delay: 2.5s;
+}
